@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPS</title>
+    <link href="Style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="game.js" type="text/JavaScript"></script>
+    <div id="scene-1">
+        <div id="start">Start</div>
+    </div>
+    <div id="scene-2">
+        <div id="rock" class="hover-effect">R<div id="r-text">Choose Rock</div></div>
+        <div id="paper" class="hover-effect">P<div id="p-text">Choose Paper</div></div>
+        <div id="sciccors" class="hover-effect">S<div id="s-text">Choose Sciccors</div></div>
+    </div>
+    <div id="scene-3">
+        <div id="you-text">You Won!</div>
+        <div id="computer">Computer Won!</div>
+        <div id="score">Your Score: 0</div>
+        <div id="Cscore">Computer Score: 0</div>
+        <div id="restart">Restart ? </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
